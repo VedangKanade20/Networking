@@ -1,0 +1,72 @@
+Star Topology 
+
+Open VMware 
+Open Ubuntu folder on desktop 
+Open Ubuntu folder from desktop 
+Then Ns3 folder 
+Then Ns3.35 folder 
+Then examples folder 
+Then TCP folder 
+Then copy star.cc file paste in scratch folder
+Go back and right click to start open in terminal 
+To run write command 
+./waf --run scratch/star
+Enter
+./waf --run scratch/star --vis
+Enter 
+
+Now in scratch folder open star.cc file 
+Line number 57-
+unit32_t nSpokes = 8; 
+Change 8 to 20 
+Save 
+Go back and right click to start open in terminal 
+To run write command 
+./waf --run scratch/star --vis
+Enter 
+(Number of nodes will change)
+
+Open star.cc again 
+Line 80 
+uint16_t port = 5000; 
+Change 5000 to 3000
+Save 
+Go back and right click to start open in terminal 
+To run write command 
+./waf --run scratch/star --vis
+Enter 
+
+Close terminal to change ip address 
+Open star.cc again
+Line 74
+Change network address from 10.1.1.0 to 10.1.2.0
+Save 
+Go back and right click to start open in terminal 
+To run write command 
+./waf --run scratch/star
+Enter
+./waf --run scratch/star --vis
+Enter 
+
+Open star.cc again 
+Line 84 and line 85
+hubApp . Start (Seconds (1.0));
+Change to (2.0)
+Save 
+Go back and right click to start open in terminal 
+To run write command 
+./waf --run scratch/star
+Enter
+./waf --run scratch/star --vis
+Enter 
+
+Open star.cc again 
+Line 49 
+Config change UintegerValue from (137) to (50)
+Save 
+Go back and right click to start open in terminal 
+To run write command 
+./waf --run scratch/star
+Enter
+./waf --run scratch/star --vis
+Enter

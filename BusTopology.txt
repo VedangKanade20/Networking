@@ -1,0 +1,30 @@
+Bus topology 
+Open VMware 
+Open Ubuntu folder on desktop 
+Write password 
+Open files (white logo)
+Then Ns3 folder 
+Then ns3.35 folder 
+Again na3.35 folder
+Examples 
+Tutorials
+Copy second.cc paste to scratch folder
+Replace 
+Now back and right click to Open terminal 
+Now enter command 
+./waf --run second 
+Enter 
+./waf --run second --vis
+Enter 
+
+Now
+In scratch folder open second.cc
+Line 92 change (9) to (15 )
+Line 98 change 9 to 15
+Save 
+Now back and right click to Open terminal 
+Now enter command 
+./waf --run second 
+Enter 
+./waf --run second --vis
+Enter

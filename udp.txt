@@ -1,0 +1,10 @@
+udp
+
+gcc <file name.c client> -o <file name only(not .c)>
+gcc udp_server.c -o udp_server
+
+or do same 
+
+./waf --run scratch/<filename>
+
+./waf --run scratch/<filename>

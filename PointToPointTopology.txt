@@ -1,0 +1,17 @@
+Point to point topology 
+Open VMware 
+Open Ubuntu folder on desktop 
+Write password 
+Open files (white logo)
+Then Ns3 folder 
+Then ns3.35 folder 
+Again na3.35 folder
+Examples 
+Tutorials
+Copy first.cc to scratch and replace 
+Now back and right click to Open terminal 
+Now enter command 
+./waf --run first 
+Enter 
+./waf --run first --vis
+Enter

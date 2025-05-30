@@ -1,0 +1,67 @@
+Linux network commands – ifconfig ,ip ,ping ,netstat ,traceroute ,nslookup ,route ,hostname.
+
+start
+
+🔹 1. ifconfig (Legacy tool – may need net-tools package)
+
+ifconfig         # Show all network interfaces and IPs
+ifconfig ens33   # Show details for interface ens33 (change if needed)
+sudo ifconfig ens33 down   # Disable the interface
+sudo ifconfig ens33 up     # Enable the interface
+ 
+
+🔹 2. ip (Modern replacement for ifconfig)
+
+ip                      # Show help and usage
+
+View IP and MAC Information
+
+ip addr show            # Show IP address for all interfaces
+ip addr show lo         # Show IP for loopback interface only
+ip link show            # Show MAC address and state (UP/DOWN)
+
+
+Enable/Disable Interfaces
+
+sudo ip link set ens33 down    # Bring interface down (replace with your interface)
+sudo ip link set ens33 up      # Bring interface up
+
+Routing Table
+
+ip route show           # Show routing table
+
+
+🔹 3. ping
+
+ping google.com             # Ping external site (Press Ctrl+C to stop)
+ping -c 4 google.com        # Ping 4 times only
+ping 127.0.0.1              # Ping localhost
+ping <your-gateway-ip>      # Ping router/gateway (e.g., 10.0.2.2)
+
+
+🔹 4. netstat (May need: sudo apt install net-tools)
+
+netstat -tuln           # Show TCP/UDP listening ports (numeric)
+netstat -r              # Show routing table
+netstat -i              # Show network interfaces
+
+
+🔹 5. traceroute (May need: sudo apt install traceroute)
+
+traceroute google.com       # Show path to destination
+traceroute 8.8.8.8          # Trace route to IP address
+
+
+🔹 6. nslookup
+
+nslookup google.com         # DNS lookup of domain
+nslookup 8.8.8.8            # Reverse DNS lookup of IP
+
+🔹 7. route (Old command – replaced by ip route)
+
+route -n                   # Show routing table with numeric output
+
+🔹 8. hostname
+
+hostname                  # Show current hostname
+sudo hostname newhost     # Temporarily change hostname to "newhost"

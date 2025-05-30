@@ -1,0 +1,50 @@
+Upd client server 
+Right click open terminal 
+Enter command :sudo apt update
+Enter password 
+Enter 
+
+Now 
+Enter command :sudo apt install build-essential 
+Enter 
+
+Now open files
+Home 
+Right click : new folder 
+Name folder as Assignment 
+Go inside the folder right click to open terminal 
+Enter command : nano udp_server.c 
+Enter
+
+Now right code :
+Copy paste code 
+After righting code press ctrl + O and enter to exit
+
+Now 
+Go inside the assignment folder right click to open terminal 
+Enter command : nano udp_client.c 
+Enter
+
+Now right code 
+Copy paste code 
+After Righting code press ctrl+O to save and enter to exit
+
+Now
+Go inside the assignment folder right click to open terminal 
+Enter command: gcc udp_server.c -o udp_server
+Enter 
+Enter command: gcc udp_client.c -o udp_client
+
+Now
+Go inside the assignment folder right click to open terminal 
+In first terminal write: ./udp_client
+Enter 
+
+In second terminal write : ./udp_server
+Enter 
+
+Now in first terminal in enter message write : 
+Hello server 
+Press enter 
+
+Will open the same in second terminal

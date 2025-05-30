@@ -1,0 +1,5 @@
+do this at start
+
+sudo apt update
+
+

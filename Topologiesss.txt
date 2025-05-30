@@ -1,0 +1,24 @@
+for running
+ns3.35 -> examples -> madhun file copy kara 
+of ur project
+if not in example search in tutorial
+
+after copying files and etc
+
+in terminal
+
+./waf --run scratch/<filename>
+
+./waf --run scratch/<filename> --vis
+
+
+
+Point to Point 
+Topology : first cc
+Bus Topology : second cc
+Star Topology : star cc
+Mesh Topology : mesh cc
+Hybrid Topology third cc
+UDP Client Server : udp client cc
+DHCP : dhcp-example
+FTP TCP : tcp-bulk
